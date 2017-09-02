@@ -1,0 +1,25 @@
+.all-table {
+    background-color: aliceblue;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.red-cell {
+    background-color: red;
+}
+
+.tomato-cell {
+    background-color: tomato;
+}
+
+.blue-cell {
+    background-color: navy;
+}
+
+.cornflower-blue-cell {
+    background-color: cornflowerblue;
+}
