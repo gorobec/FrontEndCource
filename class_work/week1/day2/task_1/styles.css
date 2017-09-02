@@ -1,0 +1,10 @@
+.visiting-cell {
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+.name-cell {
+    color: goldenrod;
+    font-weight: bold;
+}
+
