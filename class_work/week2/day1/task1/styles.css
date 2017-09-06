@@ -1,0 +1,29 @@
+.all-table {
+    border-collapse: collapse;
+    margin: auto;
+
+}
+
+td {
+    border: 1px solid black;
+    padding: 4px;
+    height: 25px;
+}
+td.blue {
+    background-color: darkblue;
+}
+
+td.hidden {
+    border-left: hidden;
+    border-bottom: hidden;
+}
+
+input {
+    float: right;
+}
+img {
+    width: 20px;
+    height: auto;
+    display: block;
+    margin: auto;
+}

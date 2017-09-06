@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<form action="" method="get">
+    <div class="container">
+        <fieldset>
+
+            <legend>Registration Form</legend>
+
+            <label for="name">Name
+                <input type="text" id="name" placeholder="Name" name="Name" pattern="[A-Za-z]{3;12}" required>
+            </label><br/>
+
+            <label for="surname">Surname
+                <input type="text" id="surname" placeholder="Surname" name="Surname" pattern="[A-Za-z]{3;12}" required>
+            </label><br/>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password" name="psw" required><br/>
+
+            <label>Repeat Password</label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br/>
+
+            <label for="bday">Birth day
+                <input type="date" id="bday" placeholder="Birth day" name="bday" value="2000-01-01" required>
+            </label><br/>
+
+            <label for="phone">Phone
+                <input type="tel" id="phone" placeholder="Phone" name="Phone" required>
+            </label><br/>
+
+            <label for="mail">Email </label>
+            <input type="email" id="mail" placeholder="Email" name="Email" required>
+            <br/><br/>
+
+
+            <label><input type="radio" name="sex">Male</label><br/>
+            <label><input type="radio" name="sex">Female</label><br/><br/>
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select><br/><br/>
+
+            <label><input type="checkbox" checked> Receive information</label> <br/><br/>
+            <label><input type="checkbox" checked> Remember me</label>
+            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+            <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+        </fieldset>
+    </div>
+</form>
+</body>
+</html>
