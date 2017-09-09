@@ -1,0 +1,7 @@
+table tr:nth-of-type(2n) {
+    background-color: #d3fafd;
+}
+
+tr td:nth-of-type(2n + 3) {
+    background-color: #eaeaea;
+}

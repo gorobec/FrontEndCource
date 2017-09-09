@@ -1,0 +1,67 @@
+html body {
+    margin: auto;
+    width: 90%;
+}
+
+html body h1 {
+    color: #daa520;
+    text-align: right;
+}
+
+body p:first-letter {
+    color: #ff0000;
+    font-size: 1.5em;
+}
+
+body p em {
+    background-color: #008000;
+    color: #ffffff;
+}
+
+/*TODO find more accurate solution*/
+div ul li {
+    font-weight: bold;
+}
+
+ul ol li {
+    font-weight: normal;
+}
+
+div#allotment h2 {
+    color: #daa520;
+}
+
+div#allotment .fruits-list {
+    color: #808080;
+}
+
+div#allotment .vegetables-list {
+    color: #ff0000;
+}
+
+div#warehouse h2 {
+    color: #0000ff;
+}
+
+div#warehouse .fruits-list {
+    color: #008000;
+}
+
+div#warehouse .vegetables-list {
+    color: #ff0000;
+}
+
+thead tr td {
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody tr :first-child {
+    color: #daa520;
+}
+
+tbody tr :nth-child(1n+2) {
+    background-color: #008000;
+    color: #ffffff;
+    text-align: center;
+}
