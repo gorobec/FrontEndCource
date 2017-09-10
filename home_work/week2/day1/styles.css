@@ -1,48 +1,144 @@
-body {
-width: 80%;
-margin: auto;
+html body {
+    width: 80%;
+    margin: auto;
 }
 
-div {
+html body div {
     font: 15px Arial, serif;
 }
 
 body div.container {
-    page-break-before:always;
+    page-break-before: always;
+}
+
+html body fieldset.inner {
+    display: block;
+    margin-right: 2px;
+    padding-left: 0.75em;
+    border: 2px groove;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    width: 50%;
+    box-shadow: 5px 5px 5px grey;
+}
+
+body fieldset legend {
+    font-weight: bold;
+}
+
+body fieldset p {
+    font-size: 85%;
+}
+
+.courier {
+    font: 15px Courier, serif;
+}
+
+div.container .left {
+    float: left;
+}
+
+div.container .right {
+    float: right;
+}
+
+body div ul {
+    list-style: square;
+}
+
+ul li.none {
+    list-style: none;
+}
+
+fieldset table.window_header {
+    border: 1px solid;
+    width: 100%;
+    border-collapse: collapse;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+table.window_header tr {
+
+    background-color: #808080;
+    color: white;
+    font-weight: bold;
+}
+
+form input[value="?"] {
+    float: right;
+    font-weight: bold;
+}
+
+form input[value="X"] {
+    float: left;
+    font-weight: bold;
+}
+
+fieldset form table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 15px;
+    padding: 0;
+    margin-top: 25px;
+
+}
+
+table.window_body td {
+    border: 1px solid;
+    padding: 15px;
+}
+
+.window_body tr:first-child td:nth-of-type(1n + 4) {
+    border: 0;
+    box-shadow: 0 0 0 white;
+}
+
+.window_body tr:last-child {
+    border: 0;
+    box-shadow: 5px 5px 5px grey;
 }
 
 fieldset {
-border-left: hidden;
-border-right: hidden;
-padding: 0;
+    display: block;
+    margin-right: 2px;
+    padding-left: 0.75em;
+    border: 2px groove;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+
 }
 
-fieldset legend {
-font-weight: bold;
+.compatibility_mode legend {
+    font-weight: normal;
 }
 
-fieldset p {
-font-size: 85%;
+.compatibility_mode label {
+    border: 1px dotted;
+    margin: 3px;
 }
 
-
-.courier {
-font: 15px Courier, serif;
+.compatibility_mode select {
+    width: 77%;
+    margin-top: 5px;
 }
 
-.left {
-float: left;
+.monitor_option legend {
+    font-weight: normal;
 }
 
-.right {
-float: right;
+.input_option legend {
+    font-weight: normal;
 }
 
-ul {
-list-style: square;
+form fieldset .buttons {
+    margin: 15px;
+    float: right;
 }
 
-ul li.none{
-list-style: none;
+/*TODO find out how to not reload page on click*/
+fieldset .buttons button {
+    width: 90px;
 }
 
