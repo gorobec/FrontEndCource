@@ -11,6 +11,10 @@ body div.container {
     page-break-before: always;
 }
 
+html body fieldset {
+    background-color: #eeeeee;
+}
+
 html body fieldset.inner {
     display: block;
     margin-right: 2px;
@@ -122,6 +126,8 @@ fieldset {
 .compatibility_mode select {
     width: 77%;
     margin-top: 5px;
+    background-color: #eeeeee;
+    box-shadow: inset 2px 2px 2px grey;
 }
 
 .monitor_option legend {
