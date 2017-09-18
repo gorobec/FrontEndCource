@@ -55,11 +55,13 @@ body .container {
     background-size: cover;
 
     font-family: "Circe";
+    color: #ffffff;
 }
 
 .container .header .logo{
     padding: 5px 10px 0 35px;
     float: left;
+
 }
 
 .container .header .course {
@@ -104,6 +106,48 @@ ul li a:hover{
     border: 2px solid #ffffff;
     border-radius: 35px;
     margin:-1.6px;
+}
+
+.first_section {
+    clear: both;
+    text-align: center;
+    padding: 25px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 30vh;
+    font-size: 3rem;
+
+}
+.first_section p {
+    line-height: normal;
+    font-size: 1.5rem;
+}
+
+.first_section h1, .start_btn{
+    text-transform: uppercase;
+}
+
+.first_section .start_btn a{
+    display: inline;
+    border: 0 solid;
+    padding: 15px 75px;
+    background-color: #a3cd8c;
+    border-radius: 55px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.start_btn a:hover{
+    opacity: 0.8;
+}
+
+.start_btn a:active{
+    position: relative;
+    bottom: 2px;
 }
 
 .footer {
