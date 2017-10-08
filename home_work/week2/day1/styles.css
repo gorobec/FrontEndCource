@@ -7,7 +7,7 @@ html body div {
     font: 15px Arial, serif;
 }
 
-body div.container {
+body div.header_main {
     page-break-before: always;
 }
 
@@ -38,11 +38,11 @@ body fieldset p {
     font: 15px Courier, serif;
 }
 
-div.container .left {
+div.header_main .left {
     float: left;
 }
 
-div.container .right {
+div.header_main .right {
     float: right;
 }
 
