@@ -23,5 +23,4 @@ function biggestPrimeDivider(number) {
 }
 // 29
 console.log(biggestPrimeDivider(13195));
-// 6857
 console.log(biggestPrimeDivider(600851475143));
