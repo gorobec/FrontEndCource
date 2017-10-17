@@ -1,6 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 a {
@@ -8,8 +11,12 @@ a {
     color: #96aadc;
 }
 
+.clearfix {
+    clear: both;
+}
+
 .container {
-    width: 940px;
+    width: 1200px;
     margin: 0 auto;
 }
 .navigation_line {
@@ -24,19 +31,19 @@ body header .navigation_line{
 }
 
 header .header_home .logo{
-    margin: 2% 5%;
+    margin: 2% 0;
     float: left;
 }
 
 .header_navigation {
     float: right;
-    margin: 2% 5% 0 0;
+    margin: 2% 0;
     text-align: right;
 }
 
 .header_navigation ul li {
     display: inline;
-    margin: 5px;
+    margin: 5px 0 5px 5px;
     font-weight: bold;
 }
 
@@ -49,10 +56,6 @@ header .header_home .logo{
 .header_navigation ul li a:hover{
     border-color: #96aadc;
     opacity: 0.7;
-}
-
-main .banner {
-    margin: 50px 0;
 }
 
 .banner_image_container {
@@ -92,6 +95,75 @@ main .banner .content_navigation {
 .content_navigation ul li a:hover {
     background-color: grey;
 
+}
+
+.description {
+    text-align: center;
+    margin-top: 125px;
+}
+
+h2.title {
+    margin: 50px 0;
+    text-transform: uppercase;
+    font: bold 40px Arial, sans-serif;
+    color: #222222;
+}
+
+.descr {
+    margin-bottom: 10px;
+    font-size: 26px;
+    color: #777777;
+}
+
+.continent_item {
+    display: block;
+    position: relative;
+    float: left;
+    width: 29.3%;
+    margin: 2% 2%;
+    text-align: center;
+}
+
+.continent_img_container {
+    overflow: hidden;
+    position: relative;
+}
+
+.continent_img_container img {
+    width: 100%;
+    -moz-transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    transition: all 0.7s ease;
+}
+
+.continent_img_container:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.continent_item_header {
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: white;
+    transition: bottom .7s ease;
+    line-height: 3rem;
+}
+
+
+.continent_img_container:hover .continent_item_header {
+    bottom: 0;
+}
+
+.resort_item_footer .countries {
+    list-style-type: none;
+    line-height: 2rem;
+    text-align: left;
+    margin-left: 25px;
 }
 
 .footer .banner_image_container {
